@@ -1,1 +1,10 @@
+I have two questions
 
+Snippy, should I enable Octobox on my GitHub?
+
+Octobox is a mailbox for your GitHub.  It brings a familiar structure to GitHub notifications similar to your email inbox! An advantage is that it will help you be better organized with your notifications. However, there are disadvantages; one of the biggest disadvantages is security.  While helpful, Octobox is still opensource and community created. Others may be able to access your github account information or perform attacks with Octobox enabled. Security risks in the past have included unencrypted access tokens stored in .txt files.
+Our goal is to operate with the lowest vulnerability that we can afford.  Octobox, while helpful, will increase vulnerability. It is not recommended at this time that Octobox be enabled.
+
+Snippy, a critical production website is down, what do I do?!
+
+We'll need information for the support engineering team: which website, when it went down, and how it was discovered.  We'll visit the website to ensure the behavior is duplicable and not account nor machine specific.  Once verified, we'll check the event viewer on the host server, the IIS logs, and application pools to narrow down the root cause of the behavior and remedy it. At this point, you'll be asked to try and replicate the behavior with what you were doing when you first discovered the behavior.  This will determine if the website is working again or if additional troubleshooting will be required.
